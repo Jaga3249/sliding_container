@@ -1,10 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const App = () => {
-  let innitialState = {
-    0: "start",
-    1: "end",
-  };
   let arr1 = [1, 2];
   let arr2 = [3, 4, 5];
   let arr3 = [6, 7];
